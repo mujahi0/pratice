@@ -7,23 +7,50 @@
     <title>Document</title>
   </head>
   <body>
+    <h2>complete the form</h2>
     <form action="">
-      <label for="name">Name:</label>
-      <input type="text" placeholder="Name" required /><br />
-      <label for="Email">Email:</label>
-      <input type="text" placeholder="Email" required /><br />
-      <label for="CNIC">CNIC:</label>
+      <label for="name">Name:</label><br /><br />
+      <input type="text" placeholder="Name" required /><br /><br />
+      <label for="Email">Email:</label><br /><br />
+      <input type="text" placeholder="Email" required /><br /><br />
+      <label for="CNIC">CNIC:</label><br /><br />
       <input
         type="text"
         placeholder="36502-8444872-1"
-        pattern="[0-9]{5}-[0-9]{7}-[0-9]{1s}"
-      /><br />
-      <label for="password">password:</label>
+        pattern="[0-9]{5}-[0-9]{7}-[0-9]{1}"
+      /><br /><br />
+      <label for="password">password:</label><br /><br />
 
-      <input type="password" placeholder="password" required /><br />
+      <input type="password" placeholder="password" required /><br /><br />
+      <label for="password">Enter your D.O.B</label><br /><br />
+      <input type="date" />
+
+      <p>please choose your gender:</p>
+      <input type="radio" name="gender" />
+      <label for="gender">male</label>
+      <input type="radio" name="gender" />
+      <label for="gender">Female</label>
+      <br />
+      <br />
+      <label for="fav">please mark your favourite Car :</label><br /><br />
+
+      <input type="checkbox" name="chose1" />
+      <label for="">Civic</label>
+      <input type="checkbox" />
+      <label for="chose2">City</label>
+      <input type="checkbox" />
+      <label for="chose3">Cycle </label>
+
+      <br />
+      <br />
+      <label for="">choose your file</label><br /><br />
+      <input type="file" />
+      <br />
+      <br />
       <input type="submit" />
+      <input type="reset" />
     </form>
-    <table>
+    <table border="2px" cellspacing="10" style="width: 50%">
       <caption>
         RECORD DATA
       </caption>
